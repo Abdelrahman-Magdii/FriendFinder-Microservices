@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: jop-services
+  profiles:
+    active: dev  # You can change this to a valid profile name like 'dev', 'prod', etc.
+  devtools:
+    livereload:
+      enabled: false
+    restart:
+      enabled: false
+
+server:
+  port: 8084

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: sales-services
+  profiles:
+    active: 8083
+  devtools:
+    livereload:
+      enabled: false
+    add-properties: false
+    restart:
+      enabled: false
+
+server:
+  port: 8083

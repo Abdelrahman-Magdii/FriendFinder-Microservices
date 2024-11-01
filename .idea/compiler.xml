@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="system-services" />
+        <module name="sales-services" />
+        <module name="user-services" />
+        <module name="FriendFinder" />
+        <module name="jop-services" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FriendFinder" options="-parameters" />
+      <module name="jop-services" options="-parameters" />
+      <module name="sales-services" options="-parameters" />
+      <module name="system-services" options="-parameters" />
+      <module name="user-services" options="-parameters" />
+    </option>
+  </component>
+</project>

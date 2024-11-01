@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user-services
+  profiles:
+    active: 8082  # Consider using a meaningful profile name instead of the port
+  devtools:
+    livereload:
+      enabled: false
+    add-properties: false
+    restart:
+      enabled: false
+
+server:
+  port: 8082
